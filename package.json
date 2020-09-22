@@ -1,0 +1,27 @@
+{
+	"name": "@cfware/loading",
+	"version": "0.1.0",
+	"description": "Display a loading spinner until the `loaded` attribute is set to the document body",
+	"type": "module",
+	"main": "loading.js",
+	"exports": "./loading.js",
+	"scripts": {
+		"test": "cfware-lint ."
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"author": "Corey Farrell",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cfware/loading.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cfware/loading/issues"
+	},
+	"homepage": "https://github.com/cfware/loading#readme",
+	"devDependencies": {
+		"@cfware/lint": "^1.4.3"
+	}
+}
