@@ -1,7 +1,7 @@
 // This file is a bit ugly to optimize first-paint:
 //   1. No external resources blocking loader display
 //   2. Terser friendly (no multi-line JS templates)
-function getSVG() {
+const getSVG = () => {
 	const rect = (_, idx) => `<rect x="-4" y="24" ry="10" width="8" height="16" transform="rotate(${idx * 30})" style="animation-delay:${(idx - 11) / 10}s" />`;
 
 	return '' +
