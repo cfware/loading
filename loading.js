@@ -21,7 +21,7 @@ const getSVG = () => {
 				.map(rect)
 				.join('') +
 		'</svg>';
-}
+};
 
 const createElement = (tag, properties) => Object.assign(document.createElement(tag), properties);
 const createStyle = textContent => createElement('style', {textContent});
