@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/cfware/loading/compare/v0.1.1...v0.1.2) (2020-11-07)
+
+
+### Bug Fixes
+
+* Add mising semicolon ([b6a5059](https://github.com/cfware/loading/commit/b6a5059230457fc8e71888a805df1712fe888506))
+
 ### [0.1.1](https://github.com/cfware/loading/compare/v0.1.0...v0.1.1) (2020-11-06)
 
 
