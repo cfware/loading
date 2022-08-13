@@ -2,7 +2,7 @@
 //   1. No external resources blocking loader display
 //   2. Terser friendly (no multi-line JS templates)
 const getSVG = () => {
-	const rect = (_, idx) => `<rect x="-4" y="24" ry="10" width="8" height="16" transform="rotate(${idx * 30})" style="animation-delay:${(idx - 11) / 10}s" />`;
+	const rect = (_, index) => `<rect x="-4" y="24" ry="10" width="8" height="16" transform="rotate(${index * 30})" style="animation-delay:${(index - 11) / 10}s" />`;
 
 	return '' +
 		'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">' +
@@ -17,7 +17,7 @@ const getSVG = () => {
 					'animation:cycle 1.2s infinite' +
 				'}' +
 			'</style>' +
-			new Array(12).fill()
+			Array.from({length: 12})
 				.map(rect)
 				.join('') +
 		'</svg>';
