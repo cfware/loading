@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/cfware/loading/compare/v0.1.2...v0.1.3) (2022-08-13)
+
+
+### Bug Fixes
+
+* Use `Array.from` over `new Array` ([cf0e10b](https://github.com/cfware/loading/commit/cf0e10ba80bbc0d5700a658f18ac62e2ef426b08))
+
 ### [0.1.2](https://github.com/cfware/loading/compare/v0.1.1...v0.1.2) (2020-11-07)
 
 
