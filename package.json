@@ -1,6 +1,6 @@
 {
     "name": "@cfware/loading",
-    "version": "0.1.3",
+    "version": "1.0.0",
     "description": "Display a loading spinner until the `loaded` attribute is set to the document body",
     "type": "module",
     "main": "loading.js",
