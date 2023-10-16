@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/cfware/loading/compare/v0.1.3...v1.0.0) (2023-10-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update development dependencies
+
+### Bug Fixes
+
+* Update development dependencies ([83d0c21](https://github.com/cfware/loading/commit/83d0c217e78395e938337c54519ad84ecc1b9d12))
+
 ### [0.1.3](https://github.com/cfware/loading/compare/v0.1.2...v0.1.3) (2022-08-13)
 
 
