@@ -1,27 +1,27 @@
 {
-	"name": "@cfware/loading",
-	"version": "0.1.3",
-	"description": "Display a loading spinner until the `loaded` attribute is set to the document body",
-	"type": "module",
-	"main": "loading.js",
-	"exports": "./loading.js",
-	"scripts": {
-		"test": "cfware-lint ."
-	},
-	"engines": {
-		"node": ">=16.12.0"
-	},
-	"author": "Corey Farrell",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/cfware/loading.git"
-	},
-	"bugs": {
-		"url": "https://github.com/cfware/loading/issues"
-	},
-	"homepage": "https://github.com/cfware/loading#readme",
-	"devDependencies": {
-		"@cfware/lint": "^3.0.4"
-	}
+    "name": "@cfware/loading",
+    "version": "0.1.3",
+    "description": "Display a loading spinner until the `loaded` attribute is set to the document body",
+    "type": "module",
+    "main": "loading.js",
+    "exports": "./loading.js",
+    "scripts": {
+        "test": "cfware-lint ."
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "author": "Corey Farrell",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cfware/loading.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cfware/loading/issues"
+    },
+    "homepage": "https://github.com/cfware/loading#readme",
+    "devDependencies": {
+        "@cfware/lint": "^4"
+    }
 }
